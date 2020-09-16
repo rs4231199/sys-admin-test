@@ -25,7 +25,7 @@ Q1.
 [rs300/baat-cheet](https://hub.docker.com/repository/docker/rs300/baat-cheet)
 
 Q2.
-I will create new user `friend` and add it to group `docker`. User `friend` will be permitted to use `sudo` because `docker` command is all that is needed to configure a docker-container.
+I will create new user `friend` and add it to group `docker`. User `friend` will not be permitted to use `sudo` because `docker` command is all that is needed to configure a docker-container.
 
 Q3.
 `docker run -dit --name my-apache-app -p 8080:80 -v "$PWD":/usr/local/apache2/htdocs/ httpd:2.4`
